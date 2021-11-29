@@ -4,23 +4,31 @@
     box-sizing: border-box;
 }
 .container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .header {
+    background-color: #1f2937;
+    height: 80vh;
+}
+.navbar{
+
 }
 .main {
-}
-.footer {
+    background-color: #fff;
+    height: 80vh;
 }
 .hero {
 }
 .info {
 }
 .quote {
+    background-color: #e5e7eb;
 }
 .cta {
+}
+.footer {
+    background-color: #1f2937;
+    height: 6vh;
 }
