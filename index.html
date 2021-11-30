@@ -4,46 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Landing Page</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-
-    <section class="header">
-        <nav class="navbar">
-            <ul>
-                <li class="header__logo">Header Logo</li>
-                <li>Header link one</li>
-                <li>Header link two</li>
-                <li>Header link three</li>
-            </ul>
-        </nav>
-            <div class="container hero">
-                <div class="hero__left">
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext that goes here under the main title.It's smaller font and the color
-                        is
-                        lower
-                        contrast.</p>
-                    <p class="btn">Sign Up</p>
-                </div>
-                <div class="hero__right">
-                    <img src="https://via.placeholder.com/450x200?text=this+is+a+placeholder+for+an+image"
-                        alt="placeholder image">
+    <header>
+        <nav>
+            <div id="navbar" class="navbar">
+                <div class="container header__logo">Header Logo</div>
+                <div class="container header__items">
+                    <p><a href="#navbar"> Header link one</a></p>
+                    <p><a href="#info"> Header link two</a></p>
+                    <p><a href="#cta"> Header link three</a></p>
                 </div>
             </div>
-    </section>
+        </nav>
+        <div class="container hero">
+            <div class="hero__left">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title.It's smaller font and the color
+                    is
+                    lower
+                    contrast.</p>
+                <div class="btn">Sign Up</div>
+            </div>
+            <div class="hero__right">
+                This is placeholder for image
+            </div>
+        </div>
+    </header>
 
-    <section class="main">
+    <section id="info" class="main">
         <div class="container info">
             <h3>Some random information</h3>
             <div class="grid-container">
-                <div class="grid-item">1</div>
-                <div class="grid-item">2</div>
-                <div class="grid-item">3</div>
-                <div class="grid-item">4</div>
+                <div class="grid-item">Placeholder image</div>
+                <div class="grid-item">Placeholder image</div>
+                <div class="grid-item">Placeholder image</div>
+                <div class="grid-item">Placeholder image</div>
                 <div class="grid-text">this is some subtext under an illustration or image</div>
                 <div class="grid-text">this is some subtext under an illustration or image</div>
                 <div class="grid-text">this is some subtext under an illustration or image</div>
@@ -51,20 +51,26 @@
             </div>
         </div>
         <div class="quote">
-            <blockquote>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
-                or maybe people will actually read it. Who knows? All I know is that it looks nice</blockquote>
-            <p>-Thor, God of Thunder</p>
+            <blockquote class="container quote__text">This is an inspiring quote, or a testimonial from a customer.
+                Maybe it's just filling up space,
+                or maybe people will actually read it. Who knows? All I know is that it looks nice
+                <p> -Thor, God of Thunder</p>
+            </blockquote>
         </div>
-        <div class="container cta">
-            <p>Call to action it's time!</p>
-            <p>Sign up for our product by cliking that button right over there!</p>
-            <p class="btn">Sign up</p>
+        <div id="cta" class="container cta">
+            <div class="cta__left">
+                <h4>Call to action it's time!</h4>
+                <p>Sign up for our product by cliking that button right over there!</p>
+            </div>
+            <div class="cta__right">
+                <p class="btn">Sign up</p>
+            </div>
         </div>
     </section>
 
-    <section class="footer">
+    <footer>
         Copyright &copy; The odin Project 2021
-    </section>
+    </footer>
 </body>
 
 </html>
