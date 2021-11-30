@@ -7,28 +7,108 @@
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    /* display: flex; */
 }
 .header {
     background-color: #1f2937;
     height: 80vh;
 }
-.navbar{
-
+.header__logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.navbar {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main {
     background-color: #fff;
     height: 80vh;
 }
 .hero {
+    display: flex;
+    padding: 20px;
+}
+.hero__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.hero__right {
+    width: 5rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
 }
 .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    margin-bottom: 2rem;
+}
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2em;
+    /* background-color: #2196f3; */
+    padding: 2em;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    padding: 30%;
+    text-align: center;
+}
+.grid-text {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: -2em;
 }
 .quote {
     background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
 }
 .cta {
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 5px;
+}
+.btn {
+    background-color: #3882f6;
+    display: inline-block;
 }
 .footer {
     background-color: #1f2937;
-    height: 6vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 50px;
+    margin-bottom: 1rem;
+}
+p {
+    font-size: 18px;
+    color: #e5e7eb;
 }

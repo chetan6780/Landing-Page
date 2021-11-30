@@ -10,46 +10,44 @@
 </head>
 
 <body>
+
     <section class="header">
         <nav class="navbar">
             <ul>
-                <li>Header Logo</li>
+                <li class="header__logo">Header Logo</li>
                 <li>Header link one</li>
                 <li>Header link two</li>
                 <li>Header link three</li>
             </ul>
         </nav>
-        <div class="hero">
-            <div class="hero__left">
-
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title.It's smaller font and the color is
-                    lower
-                    contrast.</p>
-                <button>Sign Up</button>
+            <div class="container hero">
+                <div class="hero__left">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title.It's smaller font and the color
+                        is
+                        lower
+                        contrast.</p>
+                    <p class="btn">Sign Up</p>
+                </div>
+                <div class="hero__right">
+                    <img src="https://via.placeholder.com/450x200?text=this+is+a+placeholder+for+an+image"
+                        alt="placeholder image">
+                </div>
             </div>
-            <div class="hero__right">
-                <img src="https://via.placeholder.com/450x200?text=this+is+a+placeholder+for+an+image"
-                    alt="placeholder image">
-            </div>
-        </div>
     </section>
 
     <section class="main">
-
-        <div class="info">
+        <div class="container info">
             <h3>Some random information</h3>
-            <div class="boxes">
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-            </div>
-            <div class="subtexts">
-                <subtext>this is some subtext under an illustration or image</subtext>
-                <subtext>this is some subtext under an illustration or image</subtext>
-                <subtext>this is some subtext under an illustration or image</subtext>
-                <subtext>this is some subtext under an illustration or image</subtext>
+            <div class="grid-container">
+                <div class="grid-item">1</div>
+                <div class="grid-item">2</div>
+                <div class="grid-item">3</div>
+                <div class="grid-item">4</div>
+                <div class="grid-text">this is some subtext under an illustration or image</div>
+                <div class="grid-text">this is some subtext under an illustration or image</div>
+                <div class="grid-text">this is some subtext under an illustration or image</div>
+                <div class="grid-text">this is some subtext under an illustration or image</div>
             </div>
         </div>
         <div class="quote">
@@ -57,10 +55,10 @@
                 or maybe people will actually read it. Who knows? All I know is that it looks nice</blockquote>
             <p>-Thor, God of Thunder</p>
         </div>
-        <div class="cta">
+        <div class="container cta">
             <p>Call to action it's time!</p>
             <p>Sign up for our product by cliking that button right over there!</p>
-            <button>Sign up</button>
+            <p class="btn">Sign up</p>
         </div>
     </section>
 
